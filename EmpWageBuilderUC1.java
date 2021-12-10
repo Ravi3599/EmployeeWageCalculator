@@ -8,7 +8,7 @@ public class EmpWageBuilderUC1 {
 
 			int empHrs = 0, empWage = 0, totalEmpWage = 0;
 			for (int days = 0; days < NUM_OF_WORKING_DAYS; days++) {
-			int empCheck = (int) Math.floor(Math.random() * 10) % 2;
+			int empCheck = (int) Math.floor(Math.random() * 10) % 3;
 
 			switch (empCheck){
 				case IS_PART_TIME:
